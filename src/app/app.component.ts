@@ -37,15 +37,15 @@ export class AppComponent {
     if (this.edadUno < 0){
       this.edadUno = 0
     }
-    else if (this.edadUno > 100){
-      this.edadUno = 100
+    else if (this.edadUno > 200){
+      this.edadUno = 200
     }
 
     if (this.edadDos < 0){
       this.edadDos = 0
     }
-    else if (this.edadDos > 100){
-      this.edadDos = 100
+    else if (this.edadDos > 200){
+      this.edadDos = 200
     }
 
   }
